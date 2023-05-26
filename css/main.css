@@ -1,0 +1,35 @@
+* {box-sizing: border-box;}
+
+.img-comp-container-1 {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img-1 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img-1 img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 25px;
+  height: 40px;
+  background-color: #232425;
+  opacity: 0.9;
+  border-radius: 15%;
+}
+
+.card{
+    width:300px;
+}
+
