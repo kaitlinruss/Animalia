@@ -1,13 +1,22 @@
 body{
-    background-color: aliceblue;
+    background-color: #DEDEDE;
     font-family: 'Play', sans-serif;
 }
+.navbar{
+    background-color: #DEDEDE !important;
+}
 .logo{
-    height: 80px;
+    height: 75px;
 }
 
 .heroimg{
-    height: 40vh;
+    height: 35vh;
+    width: auto;
+    margin: auto;
+}
+
+.store{
+    height: 40px;
     width: auto;
 }
 .carousel-item img{
@@ -179,7 +188,7 @@ body{
     cursor: ew-resize;
     width: 20px;
     height: 40px;
-    background-color: #2196F3;
+    background-color: #00AD4C;
     opacity: 0.7;
     border-radius: 20%;
   }
@@ -302,5 +311,45 @@ body{
     i.fa-step-forward,
     i.fa-step-backward {
     cursor: pointer;
+    }
+
+    .btn-primary{
+        background-color: #00AD4C;
+        color: #081826;
+    }
+    .btn-primary:hover{
+        background-color: #E97A30;
+        color: #081826;
+    }
+
+    a{
+        color: #00AD4C;
+    }
+
+
+    @media only screen and (max-width: 800px){
+        .player {
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            }
+        .details {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+                }
+
+        .modal-content1 {
+            position: relative;
+            background-color: black;
+            margin: auto;
+            padding: 0;
+            width: 40%;
+            max-width: 800px;
+            border-radius: 15px;
+                  }
     }
 

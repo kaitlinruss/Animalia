@@ -5,3 +5,27 @@ body{
 .logo{
     height: 80px;
 }
+
+.btn-secondary{
+    background-color: #DEDEDE;
+    border: 2px solid #00AD4C;
+    color: #00AD4C;
+}
+
+.btn-secondary:hover{
+    background-color: #00AD4C;
+    border: 2px solid #00AD4C;
+}
+
+a{
+    color: #00AD4C;
+}
+
+.btn-primary{
+    background-color: #00AD4C;
+    color: #081826;
+}
+.btn-primary:hover{
+    background-color: #E97A30;
+    color: #081826;
+}
