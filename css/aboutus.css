@@ -1,6 +1,9 @@
 body{
-    background-color: aliceblue;
-    font-family: 'Play', sans-serif;
+    background-color:#DEDEDE;
+    font-family: 'Fragment Mono', monospace;
+}
+.navbar{
+    background-color: #DEDEDE !important;
 }
 .logo{
     height: 80px;

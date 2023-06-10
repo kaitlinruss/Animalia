@@ -1,14 +1,22 @@
 body{
     background-color: #DEDEDE;
-    font-family: 'Play', sans-serif;
+    font-family: 'Fragment Mono', monospace;
+
 }
+h2{
+    font-weight:bold;
+}
+
 .navbar{
     background-color: #DEDEDE !important;
 }
 .logo{
     height: 75px;
 }
-
+.heading{
+    width:50%;
+    height: auto;
+}
 .heroimg{
     height: 35vh;
     width: auto;
@@ -38,6 +46,11 @@ body{
     clear: both;
   }
   
+  .column1 {
+    display: flex;
+    width: 100%;
+    justify-content:center ;
+  }
   .column {
     float: none;
     width: 25%;
@@ -63,10 +76,11 @@ body{
     background-color: black;
     margin: auto;
     padding: 0;
-    width: 25%;
+    width: 20%;
     max-width: 800px;
     border-radius: 15px;
   }
+
   .modal-content1 img{
     border-radius: 15px;
   }
@@ -100,7 +114,7 @@ body{
   .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 35%;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -316,6 +330,7 @@ body{
     .btn-primary{
         background-color: #00AD4C;
         color: #081826;
+        border: none;
     }
     .btn-primary:hover{
         background-color: #E97A30;
@@ -340,7 +355,7 @@ body{
             align-items: center;
             flex-direction: column;
             justify-content: center;
-                }
+            }
 
         .modal-content1 {
             position: relative;
@@ -350,6 +365,13 @@ body{
             width: 40%;
             max-width: 800px;
             border-radius: 15px;
-                  }
+            }
+        .heading{
+        width:100%;
+        height: auto;
+        }
+        #caption{
+            font-size: 12px;
+        }
     }
 
