@@ -1,16 +1,16 @@
 body{
-    background-color:#DEDEDE;
+    background-color:#F2EFEA;
     font-family: 'Fragment Mono', monospace;
 }
 .navbar{
-    background-color: #DEDEDE !important;
+    background-color: #F2EFEA !important;
 }
 .logo{
-    height: 80px;
+    height: 75px;
 }
 
 .btn-secondary{
-    background-color: #DEDEDE;
+    background-color: #F2EFEA;
     border: 2px solid #00AD4C;
     color: #00AD4C;
 }

@@ -139,17 +139,11 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
 {
-	name: "Running Up That Hill",
-	path: "music/01 Running Up That Hill.m4a",
+	name: "Bamboo (Bg Track)",
+	path: "music/Animalia Background Music.mp3",
 },
-{
-	name: "Cupid",
-	path: "music/01 Cupid.m4a",
-},
-{
-	name: "Before I Forget",
-	path: "music/10 Before I Forget.m4a",
-},
+
+
 ];
 
 function loadTrack(track_index) {

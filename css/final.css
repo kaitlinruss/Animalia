@@ -1,5 +1,5 @@
 body{
-    background-color: #DEDEDE;
+    background-color: #F2EFEA;
     font-family: 'Fragment Mono', monospace;
 
 }
@@ -8,7 +8,7 @@ h2{
 }
 
 .navbar{
-    background-color: #DEDEDE !important;
+    background-color: #F2EFEA !important;
 }
 .logo{
     height: 75px;
@@ -26,6 +26,9 @@ h2{
 .store{
     height: 40px;
     width: auto;
+}
+.gameplay{
+    width: 320px;
 }
 .carousel-item img{
     height: 374px;
