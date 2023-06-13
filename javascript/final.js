@@ -140,7 +140,7 @@ let curr_track = document.createElement('audio');
 let track_list = [
 {
 	name: "Bamboo (Bg Track)",
-	path: "music/Animalia Background Music.mp3",
+	path: "music/animalia demo x5long.mp3",
 },
 
 
@@ -283,5 +283,6 @@ function loadTrack(track_index) {
             }
 // Load the first track in the tracklist
 loadTrack(track_index);
+playTrack();
                     
     
