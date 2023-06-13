@@ -31,7 +31,13 @@ h2{
     width: 320px;
     height: 320px;
 }
+
 .carousel-item img{
+    height: 374px;
+    width: auto;
+    margin:auto;
+}
+.carousel-item{
     height: 374px;
     width: auto;
 }

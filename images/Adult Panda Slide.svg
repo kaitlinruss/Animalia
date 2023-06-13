@@ -3,7 +3,7 @@
 <rect width="150" height="90" fill="white"/>
 <rect y="-20" width="150" height="120" fill="url(#pattern0)"/>
 <rect y="-20" width="150" height="120" fill="url(#paint0_radial_1011_29367)" fill-opacity="0.6"/>
-<rect x="37" y="3.63" width="75" height="84.4607" fill="url(#pattern1)"/>
+<rect x="27" y="3.62988" width="75" height="84.4607" fill="url(#pattern1)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
